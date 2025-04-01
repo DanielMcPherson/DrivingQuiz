@@ -1,14 +1,27 @@
+let questions = [];
+let currentQuestionIndex = 0;
+let score = 0;
+
 async function startQuiz() {
   const response = await fetch('questions.json');
-  const questions = await response.json();
+  const allQuestions = await response.json();
 
+  // Shuffle and pick first 5 questions
+  questions = shuffle(allQuestions).slice(0, 5);
+  currentQuestionIndex = 0;
+  score = 0;
+
+  showQuestion();
+}
+
+function showQuestion() {
   const quizContainer = document.getElementById('quiz-container');
   quizContainer.innerHTML = ''; // Clear previous content
 
-  const q = questions[0]; // Still just one question for now
+  const q = questions[currentQuestionIndex];
 
   const questionElem = document.createElement('h2');
-  questionElem.textContent = q.question;
+  questionElem.textContent = `Q${currentQuestionIndex + 1}: ${q.question}`;
   quizContainer.appendChild(questionElem);
 
   const feedbackElem = document.createElement('p');
@@ -24,14 +37,47 @@ async function startQuiz() {
         ? '✅ Correct!'
         : `❌ Incorrect. Correct answer: <strong>${q.options[q.correctIndex]}</strong><br/>Tip: ${q.tip}`;
 
-      // Disable all buttons after answering
-      quizContainer.querySelectorAll('button').forEach(btn => {
-        btn.disabled = true;
-      });
+      if (isCorrect) score++;
+
+      // Disable all buttons
+      quizContainer.querySelectorAll('button').forEach(btn => btn.disabled = true);
+
+      // Add "Next" button
+      const nextButton = document.createElement('button');
+      nextButton.textContent = currentQuestionIndex < questions.length - 1 ? 'Next Question' : 'See Results';
+      nextButton.onclick = () => {
+        currentQuestionIndex++;
+        if (currentQuestionIndex < questions.length) {
+          showQuestion();
+        } else {
+          showResults();
+        }
+      };
+      quizContainer.appendChild(document.createElement('br'));
+      quizContainer.appendChild(nextButton);
     };
     quizContainer.appendChild(button);
     quizContainer.appendChild(document.createElement('br'));
   });
 
   quizContainer.appendChild(feedbackElem);
+}
+
+function showResults() {
+  const quizContainer = document.getElementById('quiz-container');
+  quizContainer.innerHTML = `
+    <h2>Quiz Complete!</h2>
+    <p>You scored ${score} out of ${questions.length}.</p>
+    <button onclick="startQuiz()">Try Again</button>
+  `;
+}
+
+// Utility: Fisher-Yates shuffle
+function shuffle(array) {
+  let copy = array.slice();
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
 }
