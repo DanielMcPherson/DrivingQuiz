@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What does a red octagon sign typically mean?",
+    "options": ["Stop", "Yield", "School Zone", "Railroad Crossing"],
+    "correctIndex": 0,
+    "tip": "A red octagon always means STOP. Think: '8 sides = STOP sign.'"
+  },
+  {
+    "question": "What's the legal BAC limit for drivers age 21+ in VA?",
+    "options": ["0.08%", "0.10%", "0.00%", "0.05%"],
+    "correctIndex": 0,
+    "tip": "0.08% is the legal limit in most U.S. states, including Virginia."
+  }
+]
