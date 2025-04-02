@@ -1,14 +1,122 @@
 [
   {
-    "question": "What does a red octagon sign typically mean?",
-    "options": ["Stop", "Yield", "School Zone", "Railroad Crossing"],
-    "correctIndex": 0,
-    "tip": "A red octagon always means STOP. Think: '8 sides = STOP sign.'"
+    "category": "Road Signs & Signals",
+    "question": "What does a red octagon-shaped sign indicate?",
+    "options": [
+      "Yield",
+      "Stop",
+      "No Parking",
+      "Wrong Way"
+    ],
+    "correctIndex": 1,
+    "tip": "A red octagon is always used for STOP signs."
   },
   {
-    "question": "What's the legal BAC limit for drivers age 21+ in VA?",
-    "options": ["0.08%", "0.10%", "0.00%", "0.05%"],
-    "correctIndex": 0,
-    "tip": "0.08% is the legal limit in most U.S. states, including Virginia."
+    "category": "Road Signs & Signals",
+    "question": "What does a triangular red and white sign mean?",
+    "options": [
+      "Stop",
+      "Yield",
+      "Speed Limit",
+      "Do Not Enter"
+    ],
+    "correctIndex": 1,
+    "tip": "A triangle pointing down means Yield."
+  },
+  {
+    "category": "Road Signs & Signals",
+    "question": "What color are warning signs usually?",
+    "options": [
+      "Red",
+      "Green",
+      "Yellow",
+      "Blue"
+    ],
+    "correctIndex": 2,
+    "tip": "Yellow with black text or symbols is used for warnings."
+  },
+  {
+    "category": "Pavement Markings",
+    "question": "What does a solid yellow line next to a broken yellow line mean?",
+    "options": [
+      "You may pass from both sides",
+      "You may pass only from the side with the broken line",
+      "You may pass only from the side with the solid line",
+      "Passing is prohibited in both directions"
+    ],
+    "correctIndex": 1,
+    "tip": "Passing is allowed only from the side with the broken line."
+  },
+  {
+    "category": "Safe Driving Practices",
+    "question": "Where should your hands be placed on the steering wheel?",
+    "options": [
+      "10 and 2",
+      "9 and 3",
+      "8 and 4",
+      "12 and 6"
+    ],
+    "correctIndex": 2,
+    "tip": "The manual recommends 8 and 4 for better control and airbag safety."
+  },
+  {
+    "category": "Safe Driving Practices",
+    "question": "How many seconds should your following distance be at 55 MPH?",
+    "options": [
+      "2 seconds",
+      "3 seconds",
+      "4 seconds",
+      "5 seconds"
+    ],
+    "correctIndex": 2,
+    "tip": "The manual suggests 4 seconds at 55 MPH for safe stopping distance."
+  },
+  {
+    "category": "Rules & Laws",
+    "question": "What is the maximum legal BAC for drivers 21+ in Virginia?",
+    "options": [
+      "0.05%",
+      "0.08%",
+      "0.10%",
+      "0.00%"
+    ],
+    "correctIndex": 1,
+    "tip": "0.08% is the legal limit in Virginia and most states."
+  },
+  {
+    "category": "Rules & Laws",
+    "question": "What should you do at a flashing red traffic signal?",
+    "options": [
+      "Speed up",
+      "Stop and yield",
+      "Proceed without stopping",
+      "Turn only"
+    ],
+    "correctIndex": 1,
+    "tip": "A flashing red light means stop completely, then proceed when safe."
+  },
+  {
+    "category": "Sharing the Road",
+    "question": "When passing a bicyclist, how much space must you allow?",
+    "options": [
+      "1 foot",
+      "2 feet",
+      "3 feet",
+      "5 feet"
+    ],
+    "correctIndex": 2,
+    "tip": "Virginia law requires at least 3 feet of clearance when passing a bicyclist."
+  },
+  {
+    "category": "Driving in Special Conditions",
+    "question": "When driving in fog, what should you do?",
+    "options": [
+      "Use high beams",
+      "Use low beams",
+      "Use hazard lights",
+      "Turn off lights"
+    ],
+    "correctIndex": 1,
+    "tip": "Low beams reduce glare and help you see better in fog."
   }
 ]

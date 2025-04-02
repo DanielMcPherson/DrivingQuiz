@@ -4,12 +4,24 @@
     <meta charset="UTF-8" />
     <title>VA Driving Quiz</title>
   </head>
-  <body>
-    <h1>VA Driving Practice Quiz</h1>
-    <button onclick="startQuiz()">Start Quiz</button>
+<body>
+  <h1>VA Driving Practice Quiz</h1>
 
-    <div id="quiz-container"></div>
+  <label for="category-select">Choose a category:</label>
+  <select id="category-select">
+    <option value="All">All Categories</option>
+    <option value="Road Signs & Signals">Road Signs & Signals</option>
+    <option value="Pavement Markings">Pavement Markings</option>
+    <option value="Safe Driving Practices">Safe Driving Practices</option>
+    <option value="Sharing the Road">Sharing the Road</option>
+    <option value="Driving in Special Conditions">Driving in Special Conditions</option>
+    <option value="Rules & Laws">Rules & Laws</option>
+  </select>
 
-    <script src="script.js"></script>
-  </body>
+  <button onclick="startQuiz()">Start Quiz</button>
+
+  <div id="quiz-container"></div>
+
+  <script src="script.js"></script>
+</body>
 </html>

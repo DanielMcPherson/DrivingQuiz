@@ -1,15 +1,32 @@
+console.log("✅ script.js loaded");
+
 let questions = [];
 let currentQuestionIndex = 0;
 let score = 0;
 
 async function startQuiz() {
-  const response = await fetch('questions.json');
+  const response = await fetch('questions.json?cacheBust=' + Date.now());
+
   const allQuestions = await response.json();
 
-  // Shuffle and pick first 5 questions
-  questions = shuffle(allQuestions).slice(0, 5);
+  console.log("Fetched questions:", allQuestions); // ✅ Add this
+    
+  const category = document.getElementById('category-select').value;
+
+  if (category === "All") {
+    questions = shuffle(allQuestions).slice(0, 5);
+  } else {
+    const filtered = allQuestions.filter(q => q.category === category);
+    questions = shuffle(filtered).slice(0, 5);
+  }
+
   currentQuestionIndex = 0;
   score = 0;
+
+  if (questions.length === 0) {
+    document.getElementById('quiz-container').innerHTML = `<p>No questions found for this category.</p>`;
+    return;
+  }
 
   showQuestion();
 }
