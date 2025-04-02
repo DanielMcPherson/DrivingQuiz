@@ -76,11 +76,7 @@ function showQuestion() {
 
 	const tipBox = document.createElement('div');
 	tipBox.innerHTML = `<strong>Tip:</strong> ${q.tip}`;
-	tipBox.style.marginTop = '10px';
-	tipBox.style.padding = '10px';
-	tipBox.style.border = '1px solid #ccc';
-	tipBox.style.backgroundColor = '#f9f9f9';
-	tipBox.style.borderRadius = '6px';
+	tipBox.className = 'tip-box';
 
 	feedbackElem.appendChild(resultMsg);
 	feedbackElem.appendChild(tipBox);
