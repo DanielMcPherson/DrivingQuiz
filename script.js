@@ -5,6 +5,8 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 async function startQuiz() {
+  const questionCount = parseInt(document.getElementById('question-count').value, 10);
+
   const response = await fetch('questions.json?cacheBust=' + Date.now());
 
   const allQuestions = await response.json();
@@ -14,10 +16,10 @@ async function startQuiz() {
   const category = document.getElementById('category-select').value;
 
   if (category === "All") {
-    questions = shuffle(allQuestions).slice(0, 5);
+    questions = shuffle(allQuestions).slice(0, questionCount);
   } else {
     const filtered = allQuestions.filter(q => q.category === category);
-    questions = shuffle(filtered).slice(0, 5);
+    questions = shuffle(filtered).slice(0, questionCount);
   }
 
   currentQuestionIndex = 0;
@@ -36,6 +38,10 @@ function showQuestion() {
   quizContainer.innerHTML = ''; // Clear previous content
 
   const q = questions[currentQuestionIndex];
+
+  const progressElem = document.createElement('p');
+  progressElem.textContent = `Question ${currentQuestionIndex + 1} of ${questions.length}`;
+  quizContainer.appendChild(progressElem);
 
   const questionElem = document.createElement('h2');
   questionElem.textContent = `Q${currentQuestionIndex + 1}: ${q.question}`;
