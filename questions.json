@@ -1,6 +1,14 @@
 [
   {
     "category": "Road Signs & Signals",
+    "question": "What does this sign mean?",
+    "options": ["Stop", "Yield", "No U-turn", "Wrong Way"],
+    "correctIndex": 2,
+    "tip": "The U-turn with a slash through it means No U-turn.",
+    "image": "images/no-u-turn.png"
+  },
+  {
+    "category": "Road Signs & Signals",
     "question": "What does a red octagon-shaped sign indicate?",
     "options": [
       "Yield",

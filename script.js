@@ -41,6 +41,16 @@ function showQuestion() {
   questionElem.textContent = `Q${currentQuestionIndex + 1}: ${q.question}`;
   quizContainer.appendChild(questionElem);
 
+  if (q.image) {
+    const img = document.createElement('img');
+    img.src = q.image;
+    img.alt = "Question image";
+    img.style.maxWidth = '200px';
+    img.style.display = 'block';
+    img.style.marginBottom = '10px';
+    quizContainer.appendChild(img);
+  }
+    
   const feedbackElem = document.createElement('p');
   feedbackElem.style.fontWeight = 'bold';
 
