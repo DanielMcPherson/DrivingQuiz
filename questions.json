@@ -100,12 +100,12 @@
     },
     {
 	"category": "Road Signs & Signals",
-	"question": "What shape is this sign and what does it generally mean?",
+	"question": "What does this sign shape mean?",
 	"options": [
-	    "Octagon; Regulatory sign",
-	    "Diamond; Warning sign",
-	    "Rectangle; Guide sign",
-	    "Triangle; Yield sign"
+	    "Regulatory sign",
+	    "Warning sign",
+	    "Guide sign",
+	    "Yield sign"
 	],
 	"correctIndex": 1,
 	"tip": "Diamond-shaped signs are warning signs that alert you to special conditions or hazards ahead.",
@@ -542,12 +542,12 @@
     },
     {
 	"category": "Road Signs & Signals",
-	"question": "What shape is this sign and what does it always mean?",
+	"question": "What does this sign shape mean?",
 	"options": [
-	    "Rectangle; Regulatory sign",
-	    "Octagon; Stop",
-	    "Triangle; Yield",
-	    "Diamond; Warning"
+	    "Regulatory sign",
+	    "Stop",
+	    "Yield",
+	    "Warning"
 	],
 	"correctIndex": 1,
 	"tip": "This eight-sided shape always means stop. You must come to a complete stop.",
@@ -1199,7 +1199,8 @@
 	    "12 and 6"
 	],
 	"correctIndex": 2,
-	"tip": "The manual recommends 8 and 4 for better control and airbag safety."
+	"tip": "The manual recommends 8 and 4 for better control and airbag safety. 10 and 2 used to be recommended, but that position can result in injuries when the airbag is deployed. Remember: 'Low hands, safe hands.' and '8 and 4, protect your core.'",
+	"tipImage": "images/hand-position.jpg"
     },
     {
 	"category": "Safe Driving Practices",
@@ -1410,7 +1411,7 @@
 	"options": ["No, this lane is for bicycles only", "Yes, this is a shared lane for both cars and bicylces"],
 	"correctIndex": 0,
   	"tip": "Bicycle lanes are indicated by a solid or dashed white line or green pavement markings, and a bicyclist symbol. A bicycle lane is for the preferential use of bicyclists. Drivers should not drive in the bicycle lane except when necessary to turn left or right. Before turning, check your mirrors for bicyclists that may be behind you and yield to bicycles in the lane.",
-	"image": "images/shared-lane.jpg"
+	"image": "images/bike-lane.jpg"
     },
     {
 	"category": "Pavement Markings",
@@ -1418,7 +1419,7 @@
 	"options": ["Yes", "No"],
 	"correctIndex": 0,
   	"tip": "Bicycle lanes are indicated by a solid or dashed white line or green pavement markings, and a bicyclist symbol. A bicycle lane is for the preferential use of bicyclists. Drivers should not drive in the bicycle lane except when necessary to turn left or right. Before turning, check your mirrors for bicyclists that may be behind you and yield to bicycles in the lane.",
-	"image": "images/shared-lane.jpg"
+	"image": "images/bike-lane.jpg"
     },
     {
 	"category": "Pavement Markings",
@@ -1480,5 +1481,115 @@
 	"correctIndex": 1,
   	"tip": "You do not have to stop if you are traveling in the opposite direction on a roadway with a median or barrier dividing the road and the bus is on the opposite side of the median or barrier. However, be prepared for unexpected actions by persons exiting the school bus.",
 	"image": "images/school-bus.jpg"
-    }
+    },
+
+    {
+    "category": "Safe Driving Practices",
+    "question": "At 55 mph, how many feet does it take for a vehicle to stop completely?",
+    "options": [
+      "195 feet",
+      "265 feet",
+      "344 feet",
+      "135 feet"
+    ],
+    "correctIndex": 1,
+    "tip": "Stopping distance increases with speed. At 55 mph, it takes about 265 feet to stop.",
+    "tipImage": "images/stopping-distance.jpg"
+  },
+  {
+    "category": "Safe Driving Practices",
+    "question": "Which statement is true about stopping distances?",
+    "options": [
+      "Stopping distance decreases with speed",
+      "Stopping distance doubles for every 10 mph increase",
+      "Stopping distance increases with speed",
+      "Stopping distance stays the same regardless of speed"
+    ],
+    "correctIndex": 2,
+    "tip": "As shown in the diagram, higher speeds require longer stopping distances.",
+    "tipImage": "images/stopping-distance.jpg"
+  },
+  {
+    "category": "Safe Driving Practices",
+    "question": "How much distance does it take to stop at 65 mph?",
+    "options": [
+      "195 feet",
+      "265 feet",
+      "344 feet",
+      "85 feet"
+    ],
+    "correctIndex": 2,
+    "tip": "At 65 mph, stopping distance is 344 feet.",
+    "tipImage": "images/stopping-distance.jpg"
+  },
+  {
+    "category": "Safe Driving Practices",
+    "question": "What should you do when entering a roundabout?",
+    "options": ["Yield to traffic already in the circle", "Stop completely", "Accelerate to merge", "Always go straight through"],
+    "correctIndex": 0,
+    "tip": "Vehicles already in the roundabout have the right of way. Yield before entering."
+  },
+  {
+    "category": "Safe Driving Practices",
+    "question": "When changing lanes, what is the first thing you should do?",
+    "options": ["Accelerate quickly", "Check your mirrors and blind spot", "Honk your horn", "Slow down drastically"],
+    "correctIndex": 1,
+    "tip": "Always check mirrors and look over your shoulder to check your blind spot before changing lanes."
+  },
+  {
+    "category": "Safe Driving Practices",
+    "question": "What is over-correcting in driving?",
+    "options": ["Turning slightly to correct a drift", "Steering too sharply in an emergency", "Adjusting mirrors while driving", "Driving below the speed limit"],
+    "correctIndex": 1,
+    "tip": "Over-correcting usually means turning the wheel too sharply in a panic, which can lead to crashes."
+  },
+  {
+    "category": "Safe Driving Practices",
+    "question": "What should you do if you miss your turn or exit?",
+    "options": ["Stop and back up", "Make a U-turn immediately", "Continue to the next opportunity to turn around", "Swerve quickly across lanes"],
+    "correctIndex": 2,
+    "tip": "Never stop or back up on the road. Go to the next safe place to turn around."
+  },
+  {
+    "category": "Safe Driving Practices",
+    "question": "How far ahead should you signal before turning or changing lanes?",
+    "options": ["At least 25 feet", "At least 50 feet", "At least 100 feet", "Immediately before the turn"],
+    "correctIndex": 2,
+    "tip": "Virginia law requires signaling for at least 100 feet before turning or changing lanes."
+  },
+  {
+    "category": "Safe Driving Practices",
+    "question": "Why is it important to maintain a space cushion around your vehicle?",
+    "options": ["To save gas", "To reduce noise", "To give you room to react", "To intimidate other drivers"],
+    "correctIndex": 2,
+    "tip": "A space cushion gives you time and space to avoid sudden hazards or stops."
+  },
+  {
+    "category": "Safe Driving Practices",
+    "question": "What is a blind spot?",
+    "options": ["The area lit by headlights", "Your rearview mirror view", "An area not visible in mirrors", "The space behind the car only"],
+    "correctIndex": 2,
+    "tip": "Blind spots are areas you can't see in your mirrors—always check over your shoulder."
+  },
+  {
+    "category": "Safe Driving Practices",
+    "question": "When should you yield the right of way?",
+    "options": ["Always at green lights", "Only to trucks", "To avoid collisions", "Only when turning left"],
+    "correctIndex": 2,
+    "tip": "You must yield the right of way whenever it helps prevent a collision—even if you technically have the right."
+  },
+  {
+    "category": "Safe Driving Practices",
+    "question": "What is the correct way to make a U-turn?",
+    "options": ["At any intersection", "After checking signs and yielding to traffic", "Without signaling", "From the leftmost lane"],
+    "correctIndex": 1,
+    "tip": "Only make U-turns where permitted, and always yield to oncoming traffic and pedestrians."
+  },
+  {
+    "category": "Safe Driving Practices",
+    "question": "What should you do before making a left turn at an intersection?",
+    "options": ["Speed up", "Signal and yield to oncoming traffic", "Flash your headlights", "Ignore pedestrians"],
+    "correctIndex": 1,
+    "tip": "Left turns require signaling and yielding to oncoming vehicles and pedestrians crossing."
+  }
 ]

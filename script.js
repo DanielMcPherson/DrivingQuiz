@@ -60,10 +60,34 @@ function showQuestion() {
     button.onclick = () => {
       const isCorrect = index === q.correctIndex;
 
-      feedbackElem.innerHTML = isCorrect
-        ? '✅ Correct!'
-        : `❌ Incorrect. Correct answer: <strong>${q.options[q.correctIndex]}</strong><br/>Tip: ${q.tip}`;
+	// Clear previous feedback content
+	feedbackElem.innerHTML = '';
 
+	const resultMsg = document.createElement('p');
+	resultMsg.innerHTML = isCorrect
+	    ? "✅ Correct!"
+	    : `❌ Incorrect. Correct answer: <strong>${q.options[q.correctIndex]}</strong>`;
+
+	const tipBox = document.createElement('div');
+	tipBox.innerHTML = `<strong>Tip:</strong> ${q.tip}`;
+	tipBox.style.marginTop = '10px';
+	tipBox.style.padding = '10px';
+	tipBox.style.border = '1px solid #ccc';
+	tipBox.style.backgroundColor = '#f9f9f9';
+	tipBox.style.borderRadius = '6px';
+
+	feedbackElem.appendChild(resultMsg);
+	feedbackElem.appendChild(tipBox);
+
+	if (q.tipImage) {
+	    const img = document.createElement('img');
+	    img.src = q.tipImage;
+	    img.alt = "Helpful visual";
+	    img.style.maxWidth = '300px';
+	    img.style.marginTop = '10px';
+	    quizContainer.appendChild(img);
+	}
+	
       if (isCorrect) score++;
 
       // Disable all buttons
