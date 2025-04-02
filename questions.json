@@ -276,7 +276,7 @@
 	    "Guide sign; Directions or information",
 	    "Construction sign; Temporary conditions"
 	],
-	"correctIndex": 1,
+	"correctIndex": 2,
 	"tip": "Rectangle signs with green and white are guide signs and provide helpful information.",
 	"image": "images/green-regulatory-rectangle.jpg"
     },
