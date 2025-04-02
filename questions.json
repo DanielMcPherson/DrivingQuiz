@@ -1867,5 +1867,101 @@
     ],
     "correctIndex": 1,
     "tip": "Non-driving issues like failing to pay child support can result in license suspension in Virginia."
+  },
+  {
+    "category": "License Types",
+    "question": "How long do new Virginia residents have to obtain a Virginia driver's license?",
+    "options": [
+      "30 days",
+      "60 days",
+      "90 days",
+      "120 days"
+    ],
+    "correctIndex": 1,
+    "tip": "New residents must obtain a Virginia driver's license within 60 days of moving to the state."
+  },
+  {
+    "category": "License Types",
+    "question": "How many license plates must a vehicle display in Virginia?",
+    "options": [
+      "One on the rear only",
+      "Two\u2014front and rear",
+      "Only if driving out of state",
+      "Only commercial vehicles need two"
+    ],
+    "correctIndex": 1,
+    "tip": "Virginia requires license plates on both the front and rear of the vehicle."
+  },
+  {
+    "category": "License Types",
+    "question": "How soon must you notify the DMV if you change your address?",
+    "options": [
+      "10 days",
+      "20 days",
+      "30 days",
+      "60 days"
+    ],
+    "correctIndex": 2,
+    "tip": "You are required to notify the DMV within 30 days of changing your address."
+  },
+  {
+    "category": "License Types",
+    "question": "What must be displayed on your license plate to show registration validity?",
+    "options": [
+      "Inspection sticker",
+      "Vehicle ID number",
+      "Month and year decals",
+      "State tax stamp"
+    ],
+    "correctIndex": 2,
+    "tip": "Decals showing the month and year of registration expiration must be on your license plates."
+  },
+  {
+    "category": "License Types",
+    "question": "What should you do if you are moving to Virginia and bring your car?",
+    "options": [
+      "Update your license but not your plates",
+      "Register your vehicle and get VA plates within 30 days",
+      "Leave out-of-state plates until renewal",
+      "Register only if staying more than 6 months"
+    ],
+    "correctIndex": 1,
+    "tip": "You must title, register your vehicle, and get Virginia plates within 30 days of moving to the state."
+  },
+  {
+    "category": "License Types",
+    "question": "Where should you place your vehicle registration decals?",
+    "options": [
+      "On the rear windshield",
+      "On the dashboard",
+      "On the top left corner of your plate",
+      "In the designated area on the license plates"
+    ],
+    "correctIndex": 3,
+    "tip": "Registration decals must be placed in the designated spaces on your license plates."
+  },
+  {
+    "category": "License Types",
+    "question": "How often must your vehicle pass a Virginia safety inspection?",
+    "options": [
+      "Every 6 months",
+      "Every year",
+      "Every 2 years",
+      "Only upon registration"
+    ],
+    "correctIndex": 1,
+    "tip": "A safety inspection is required once per year in Virginia."
+  },
+  {
+    "category": "License Types",
+    "question": "What is required if your locality mandates emissions testing?",
+    "options": [
+      "You must test every 3 years",
+      "You are exempt if the car is under warranty",
+      "You must comply with the local emissions inspection rules",
+      "Only commercial vehicles are tested"
+    ],
+    "correctIndex": 2,
+    "tip": "Some Virginia localities require emissions inspections\u2014check your local laws to comply."
   }
 ]
