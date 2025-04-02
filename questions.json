@@ -1522,6 +1522,72 @@
     "tip": "At 65 mph, stopping distance is 344 feet.",
     "tipImage": "images/stopping-distance.jpg"
   },
+      {
+    "category": "Safe Driving Practices",
+    "question": "Approximately how many feet does it take to stop a vehicle traveling at 25 mph?",
+    "options": [
+      "85 feet",
+      "135 feet",
+      "195 feet",
+      "265 feet"
+    ],
+    "correctIndex": 0,
+    "tip": "At 25 mph, your vehicle needs around 85 feet to come to a complete stop.",
+    "tipImage": "images/stopping-distance.jpg"
+  },
+  {
+    "category": "Safe Driving Practices",
+    "question": "Approximately how many feet does it take to stop a vehicle traveling at 35 mph?",
+    "options": [
+      "85 feet",
+      "135 feet",
+      "195 feet",
+      "265 feet"
+    ],
+    "correctIndex": 1,
+    "tip": "At 35 mph, your vehicle needs around 135 feet to stop completely.",
+    "tipImage": "images/stopping-distance.jpg"
+  },
+  {
+    "category": "Safe Driving Practices",
+    "question": "Approximately how many feet does it take to stop a vehicle traveling at 45 mph?",
+    "options": [
+      "85 feet",
+      "135 feet",
+      "195 feet",
+      "265 feet"
+    ],
+    "correctIndex": 2,
+    "tip": "At 45 mph, it takes about 195 feet to stop\u2014a big increase from lower speeds.",
+    "tipImage": "images/stopping-distance.jpg"
+  },
+  {
+    "category": "Safe Driving Practices",
+    "question": "Approximately how many feet does it take to stop a vehicle traveling at 55 mph?",
+    "options": [
+      "85 feet",
+      "135 feet",
+      "195 feet",
+      "265 feet"
+    ],
+    "correctIndex": 3,
+    "tip": "At 55 mph, the stopping distance is about 265 feet.",
+    "tipImage": "images/stopping-distance.jpg"
+  },
+  {
+    "category": "Safe Driving Practices",
+    "question": "Approximately how many feet does it take to stop a vehicle traveling at 65 mph?",
+    "options": [
+      "85 feet",
+      "135 feet",
+      "195 feet",
+      "265 feet",
+      "344 feet"
+    ],
+    "correctIndex": 4,
+    "tip": "At 65 mph, your car needs a massive 344 feet to stop\u2014almost a football field!",
+    "tipImage": "images/stopping-distance.jpg"
+  },
   {
     "category": "Safe Driving Practices",
     "question": "What should you do when entering a roundabout?",
@@ -1963,5 +2029,92 @@
     ],
     "correctIndex": 2,
     "tip": "Some Virginia localities require emissions inspections\u2014check your local laws to comply."
+  },
+  {
+    "category": "Safe Driving Practices",
+    "question": "If you drive after drinking, be aware that alcohol affects:",
+    "options": [
+      "Your coordination.",
+      "Your vision.",
+      "Your judgment.",
+      "All of these."
+    ],
+    "correctIndex": 3,
+    "tip": "Alcohol impairs coordination, vision, and judgment\u2014never drive under the influence."
+  },
+  {
+    "category": "Safe Driving Practices",
+    "question": "If you are driving on an icy or slippery road and have to stop:",
+    "options": [
+      "Apply brakes gently.",
+      "Apply brakes in a normal manner.",
+      "Keep foot off brake and let compression stop you.",
+      "Press brakes firmly."
+    ],
+    "correctIndex": 0,
+    "tip": "On icy roads, braking gently helps prevent skidding and loss of control."
+  },
+  {
+    "category": "Safe Driving Practices",
+    "question": "The correct hand signal for stopping is:",
+    "options": [
+      "Right hand and arm pointing downward.",
+      "Left hand and arm pointing straight out.",
+      "Left hand and arm pointing downward.",
+      "Left hand and arm pointing upward."
+    ],
+    "correctIndex": 2,
+      "tip": "A downward-pointing left arm indicates a stop hand signal.",
+      "tipImage": "images/hand-signals.jpg"
+  },
+  {
+    "category": "Safe Driving Practices",
+    "question": "The correct hand signal for a left turn is:",
+    "options": [
+      "Right hand and arm pointing downward.",
+      "Left hand and arm pointing straight out.",
+      "Left hand and arm pointing downward.",
+      "Left hand and arm pointing upward."
+    ],
+    "correctIndex": 1,
+      "tip": "A left hand and arm pointing straight out indicates a left turn hand signal.",
+      "tipImage": "images/hand-signals.jpg"
+  },
+  {
+    "category": "Safe Driving Practices",
+    "question": "The correct hand signal for a right turn is:",
+    "options": [
+      "Right hand and arm pointing downward.",
+      "Left hand and arm pointing straight out.",
+      "Left hand and arm pointing downward.",
+      "Left hand and arm pointing upward."
+    ],
+    "correctIndex": 3,
+      "tip": "A left hand and arm pointing upward indicates a right turn hand signal.",
+      "tipImage": "images/hand-signals.jpg"
+  },
+  {
+    "category": "Sharing the Road",
+    "question": "When a school bus stops to load or unload children, vehicles traveling in the same direction as the bus must:",
+    "options": [
+      "Slow down and proceed with caution.",
+      "Maintain speed.",
+      "Stop, then proceed with caution.",
+      "Stop until all persons are clear and the bus moves again."
+    ],
+    "correctIndex": 3,
+    "tip": "You must stop for a school bus and remain stopped until all passengers are clear and the bus moves again."
+  },
+  {
+    "category": "Safe Driving Practices",
+    "question": "If you are involved in a crash, you must:",
+    "options": [
+      "Take the person to the nearest hospital.",
+      "Continue home and file a crash report.",
+      "Stop, help any injured, report the crash to the police, exchange information and notify your insurance company.",
+      "Check your car for damages."
+    ],
+    "correctIndex": 2,
+    "tip": "After a crash, you must stop, assist the injured, report it, exchange info, and notify your insurer."
   }
 ]
