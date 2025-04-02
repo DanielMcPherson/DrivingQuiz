@@ -1215,7 +1215,7 @@
 	"tip": "The manual suggests 4 seconds at 55 MPH for safe stopping distance."
     },
     {
-	"category": "Rules & Laws",
+	"category": "Penalties",
 	"question": "What is the maximum legal BAC for drivers 21+ in Virginia?",
 	"options": [
 	    "0.05%",
@@ -1227,7 +1227,7 @@
 	"tip": "0.08% is the legal limit in Virginia and most states."
     },
     {
-	"category": "Rules & Laws",
+	"category": "Safe Driving Practices",
 	"question": "What should you do at a flashing red traffic signal?",
 	"options": [
 	    "Speed up",
@@ -1251,7 +1251,7 @@
 	"tip": "Virginia law requires at least 3 feet of clearance when passing a bicyclist."
     },
     {
-	"category": "Driving in Special Conditions",
+	"category": "Safe Driving Practices",
 	"question": "When driving in fog, what should you do?",
 	"options": [
 	    "Use high beams",
@@ -1591,5 +1591,281 @@
     "options": ["Speed up", "Signal and yield to oncoming traffic", "Flash your headlights", "Ignore pedestrians"],
     "correctIndex": 1,
     "tip": "Left turns require signaling and yielding to oncoming vehicles and pedestrians crossing."
+  },
+  {
+    "category": "Sharing the Road",
+    "question": "When passing a bicyclist, how much clearance must a driver allow?",
+    "options": [
+      "1 foot",
+      "2 feet",
+      "3 feet",
+      "4 feet"
+    ],
+    "correctIndex": 2,
+    "tip": "Virginia law requires at least 3 feet of clearance when passing a bicyclist."
+  },
+  {
+    "category": "Sharing the Road",
+    "question": "What should a driver do if the lane is too narrow to pass a bicyclist safely?",
+    "options": [
+      "Honk the horn to warn the bicyclist",
+      "Squeeze by in the same lane",
+      "Change lanes to pass safely",
+      "Follow closely until the road widens"
+    ],
+    "correctIndex": 2,
+    "tip": "If you can't give 3 feet of clearance in your lane, you must change lanes to pass safely."
+  },
+  {
+    "category": "Sharing the Road",
+    "question": "Which of the following is true about mopeds in Virginia?",
+    "options": [
+      "They may be driven on the interstate",
+      "They are exempt from registration",
+      "They require a motorcycle license",
+      "They cannot be operated over 35 mph"
+    ],
+    "correctIndex": 3,
+    "tip": "Mopeds must not be driven faster than 35 mph or on interstates."
+  },
+  {
+    "category": "Sharing the Road",
+    "question": "Which of the following is NOT required for moped riders?",
+    "options": [
+      "A helmet",
+      "A DMV-issued license plate",
+      "A government-issued photo ID",
+      "Eye protection if no windshield"
+    ],
+    "correctIndex": 1,
+    "tip": "Mopeds must be registered, but they don't need a standard DMV license plate like cars."
+  },
+  {
+    "category": "Sharing the Road",
+    "question": "Why are motorcycles often involved in crashes with cars?",
+    "options": [
+      "They speed frequently",
+      "They are less visible to drivers",
+      "They ignore stop signs",
+      "They always have the right of way"
+    ],
+    "correctIndex": 1,
+    "tip": "Motorcycles are smaller and harder to see. Always check blind spots and look twice."
+  },
+  {
+    "category": "Sharing the Road",
+    "question": "What should a driver do before changing lanes near a motorcycle?",
+    "options": [
+      "Only check mirrors",
+      "Use your horn",
+      "Check mirrors and blind spots carefully",
+      "Speed up quickly"
+    ],
+    "correctIndex": 2,
+    "tip": "Always check mirrors and blind spots. Motorcycles can be hard to see."
+  },
+  {
+    "category": "Sharing the Road",
+    "question": "What is the rule for following distance behind a motorcycle?",
+    "options": [
+      "2 seconds",
+      "Same as for a car",
+      "Less than for a car",
+      "More than for a car"
+    ],
+    "correctIndex": 3,
+    "tip": "You should allow more following distance behind a motorcycle due to their quick stops."
+  },
+  {
+    "category": "Safety Equipment",
+    "question": "What is the primary benefit of wearing a seat belt?",
+    "options": [
+      "It helps you drive faster",
+      "It prevents minor traffic violations",
+      "It keeps you from being thrown from the vehicle",
+      "It replaces the need for airbags"
+    ],
+    "correctIndex": 2,
+    "tip": "Seat belts keep you from being ejected during a crash, which is often fatal."
+  },
+  {
+    "category": "Safety Equipment",
+    "question": "Who must wear a seat belt in the front seat in Virginia?",
+    "options": [
+      "Only the driver",
+      "Only passengers under 18",
+      "All front seat occupants",
+      "Only passengers in the rear seat"
+    ],
+    "correctIndex": 2,
+    "tip": "In Virginia, everyone in the front seat must wear a seat belt."
+  },
+  {
+    "category": "Safety Equipment",
+    "question": "Children under what age must be in a child safety seat in Virginia?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 3,
+    "tip": "Children under age 8 must be properly secured in an approved child safety seat."
+  },
+  {
+    "category": "Safety Equipment",
+    "question": "Where is the safest place to install a child safety seat?",
+    "options": [
+      "Front passenger seat",
+      "Rear middle seat",
+      "Rear side seat",
+      "Next to the driver"
+    ],
+    "correctIndex": 1,
+    "tip": "The rear middle seat is the safest because it's farthest from impact zones."
+  },
+  {
+    "category": "Safety Equipment",
+    "question": "What is the danger of placing a rear-facing child seat in front of an airbag?",
+    "options": [
+      "It may block the windshield",
+      "It can interfere with the steering wheel",
+      "The airbag can cause serious injury or death to the child",
+      "There is no risk if the seat is secured properly"
+    ],
+    "correctIndex": 2,
+    "tip": "Airbags deploy with great force and can be deadly to a rear-facing child seat in the front."
+  },
+  {
+    "category": "Safety Equipment",
+    "question": "Airbags are designed to work best when used with what?",
+    "options": [
+      "Tinted windows",
+      "Cruise control",
+      "Proper tire pressure",
+      "Seat belts"
+    ],
+    "correctIndex": 3,
+    "tip": "Airbags are supplemental\u2014they work with seat belts, not as replacements."
+  },
+  {
+    "category": "Safety Equipment",
+    "question": "At what minimum age can children legally ride without a child safety seat in Virginia?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctIndex": 2,
+    "tip": "Children must use a proper child seat until they are at least 8 years old."
+  },
+  {
+    "category": "Safety Equipment",
+    "question": "How should a seat belt fit to provide the best protection?",
+    "options": [
+      "Loose and low on the hips",
+      "Across the neck and chest",
+      "Snug across the chest and low across the hips",
+      "Under the arm for comfort"
+    ],
+    "correctIndex": 2,
+    "tip": "A seat belt should be snug across your chest and rest low on your hips\u2014not your stomach or neck."
+  },
+  {
+    "category": "Penalties",
+    "question": "What is the consequence of refusing to take a blood or breath test when requested by law enforcement in Virginia?",
+    "options": [
+      "A small fine only",
+      "Automatic license suspension",
+      "Community service",
+      "No consequence unless convicted of DUI"
+    ],
+    "correctIndex": 1,
+    "tip": "Refusing a blood or breath test results in automatic license suspension under Virginia\u2019s implied consent law."
+  },
+  {
+    "category": "Penalties",
+    "question": "In Virginia, how many days is your license automatically suspended for a first DUI offense?",
+    "options": [
+      "30 days",
+      "45 days",
+      "7 days",
+      "90 days"
+    ],
+    "correctIndex": 2,
+    "tip": "For a first DUI offense, your license is automatically suspended for 7 days before the court even hears your case."
+  },
+  {
+    "category": "Penalties",
+    "question": "What happens if you're convicted of driving over 85 MPH in Virginia?",
+    "options": [
+      "You receive a warning",
+      "You are charged with a misdemeanor for reckless driving",
+      "You lose points on your license",
+      "You pay double the normal speeding fine"
+    ],
+    "correctIndex": 1,
+    "tip": "Driving over 85 MPH or 20 MPH over the limit is considered reckless driving\u2014a criminal misdemeanor."
+  },
+  {
+    "category": "Penalties",
+    "question": "What is the penalty for using a handheld phone in a highway work zone?",
+    "options": [
+      "$100 fine",
+      "$250 fine",
+      "Court appearance",
+      "Points on your record"
+    ],
+    "correctIndex": 1,
+    "tip": "Virginia law imposes a $250 fine for using a handheld phone in an active work zone."
+  },
+  {
+    "category": "Penalties",
+    "question": "What can happen if you are convicted of a second DUI offense within 10 years?",
+    "options": [
+      "Your license is suspended for 3 months",
+      "You must complete community service",
+      "You face a longer license suspension and possible jail time",
+      "You can avoid penalties by attending driving school"
+    ],
+    "correctIndex": 2,
+    "tip": "Second DUI offenses carry harsher penalties including longer suspensions and mandatory jail time."
+  },
+  {
+    "category": "Penalties",
+    "question": "Virginia\u2019s zero tolerance law applies to which group of drivers?",
+    "options": [
+      "Drivers under 21",
+      "Drivers with out-of-state licenses",
+      "All first-time offenders",
+      "Commercial vehicle drivers only"
+    ],
+    "correctIndex": 0,
+    "tip": "Drivers under 21 with any detectable alcohol in their system are in violation of the zero tolerance law."
+  },
+  {
+    "category": "Penalties",
+    "question": "What is the penalty for transporting children while under the influence of alcohol?",
+    "options": [
+      "A warning and fine",
+      "Additional jail time and fines",
+      "Loss of vehicle registration",
+      "Points on license only"
+    ],
+    "correctIndex": 1,
+    "tip": "Transporting children while intoxicated carries enhanced penalties, including mandatory jail and higher fines."
+  },
+  {
+    "category": "Penalties",
+    "question": "What can cause a driver\u2019s license to be suspended besides traffic violations?",
+    "options": [
+      "Unpaid parking tickets",
+      "Failing to pay child support",
+      "Failing a school exam",
+      "Changing addresses without notice"
+    ],
+    "correctIndex": 1,
+    "tip": "Non-driving issues like failing to pay child support can result in license suspension in Virginia."
   }
 ]
