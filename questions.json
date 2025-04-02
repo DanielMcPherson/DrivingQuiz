@@ -1260,5 +1260,225 @@
 	],
 	"correctIndex": 1,
 	"tip": "Low beams reduce glare and help you see better in fog."
+    },
+
+
+  {
+    "category": "Pavement Markings",
+    "question": "What does a broken yellow center line indicate?",
+    "options": [
+      "No passing allowed in either direction",
+      "Passing is allowed in both directions when safe",
+      "Only emergency vehicles may pass",
+      "Passing allowed only when turning left"
+    ],
+    "correctIndex": 1,
+    "tip": "Broken yellow lines mean two-way traffic with passing allowed when safe."
+  },
+  {
+    "category": "Pavement Markings",
+    "question": "What does a solid yellow line alongside a broken yellow line mean?",
+    "options": [
+      "Passing is allowed from the side with the broken line only",
+      "Passing is allowed from both sides",
+      "No passing allowed in either direction",
+      "Passing is allowed only for left turns"
+    ],
+    "correctIndex": 0,
+    "tip": "Passing is allowed only from the side with the broken yellow line."
+  },
+  {
+    "category": "Pavement Markings",
+    "question": "What do double solid yellow lines mean?",
+    "options": [
+      "Passing allowed in both directions",
+      "Passing allowed from one direction only",
+      "No passing allowed in either direction",
+      "Passing allowed for buses only"
+    ],
+    "correctIndex": 2,
+    "tip": "Double solid yellow lines mean no passing in either direction."
+  },
+  {
+    "category": "Pavement Markings",
+    "question": "What do broken white lines indicate?",
+    "options": [
+      "Passing not allowed",
+      "Separate lanes of traffic moving in opposite directions",
+      "Separate lanes of traffic moving in the same direction",
+      "Only used on highways"
+    ],
+    "correctIndex": 2,
+    "tip": "Broken white lines separate lanes moving in the same direction."
+  },
+  {
+    "category": "Pavement Markings",
+    "question": "What is a yield line?",
+    "options": [
+      "A solid line across the road",
+      "A line of triangles across the road",
+      "A set of dashed white lines",
+      "A double solid yellow line"
+    ],
+    "correctIndex": 1,
+    "tip": "A yield line is a series of triangles showing where vehicles must yield."
+  },
+  {
+    "category": "Pavement Markings",
+    "question": "What do solid white lines indicate near intersections?",
+    "options": [
+      "Encourage lane changes",
+      "Allow u-turns",
+      "Discourage lane changes",
+      "Permit speeding"
+    ],
+    "correctIndex": 2,
+    "tip": "Solid white lines discourage lane changes near intersections and other hazard areas."
+  },
+  {
+    "category": "Pavement Markings",
+    "question": "What does a diamond-shaped marking in a lane mean?",
+    "options": [
+      "Lane for motorcycles only",
+      "Lane for emergency vehicles only",
+      "Reserved lane such as for HOV or buses",
+      "Lane for left turns only"
+    ],
+    "correctIndex": 2,
+    "tip": "A diamond marking means the lane is reserved, often for HOV or buses."
+  },
+
+    {
+	"category": "Pavement Markings",
+	"question": "Which car is allowed to pass when the lane is clear?",
+	"options": ["Neither", "Both", "The purple car", "The blue car"],
+	"correctIndex": 2,
+	"tip": "A broken yellow line alongside a solid yellow line means that passing is allowed from the side of the broken line, but not from the side of the solid line.",
+	"image": "images/half-broken-yellow-line.jpg"
+    },
+    {
+	"category": "Pavement Markings",
+	"question": "Which car is allowed to pass when the lane is clear?",
+	"options": ["Neither", "Both", "The purple car", "The blue car"],
+	"correctIndex": 1 ,
+	"tip": "Broken yellow center lines mean that passing on the left is allowed in either direction when the way ahead is clear.",
+	"image": "images/broken-yellow-center-lines.jpg"
+    },
+    {
+	"category": "Pavement Markings",
+	"question": "Which car is allowed to pass when the lane is clear?",
+	"options": ["Neither", "Both", "The purple car", "The blue car"],
+	"correctIndex": 0,
+	"tip": "Double solid yellow lines mark the center of the road and separate traffic traveling in two different directions. Passing is not allowed in either direction.",
+	"image": "images/double-yellow-lines.jpg"
+    },
+    {
+	"category": "Pavement Markings",
+	"question": "What do these lines mean?",
+	"options": ["No passing", "Both lanes move in the same direction", "Divided highway", "Drive on the line"],
+	"correctIndex": 1,
+	"tip": "Broken white lines separate lanes of traffic going in the same direction. You may change lanes with caution. Passing is not allowed in either direction.",
+	"image": "images/broken-white-lines.jpg"
+    },
+    {
+	"category": "Pavement Markings",
+	"question": "Which car can use the middle lane?",
+	"options": ["Either", "Both", "The purple car", "The blue car"],
+	"correctIndex": 0,
+	"tip": "If both sides of the center lane are marked by a solid yellow line and a broken yellow line, drivers traveling in either direction may use the lane for making left turns. However, they may not travel further than 150 feet in this lane.",
+	"image": "images/middle-turn-lane.jpg"
+    },
+    {
+	"category": "Pavement Markings",
+	"question": "Can the purple car use the middle lane?",
+	"options": ["No", "Yes, but only to make a left turn", "Yes, but only to pass a car in front of it", "Yes, as far as it wants"],
+	"correctIndex": 1,
+	"tip": "If both sides of the center lane are marked by a solid yellow line and a broken yellow line, drivers traveling in either direction may use the lane for making left turns. However, they may not travel further than 150 feet in this lane.",
+	"image": "images/middle-turn-lane.jpg"
+    },
+    {
+	"category": "Pavement Markings",
+	"question": "Is the red car allowed to be in this lane?",
+	"options": ["No, it is in a bike lane and needs to move over", "Yes, this is a shared lane. The car is allow to be there."],
+	"correctIndex": 1,
+  	"tip": "A shared lane marking, or sharrow, consists of a bicycle symbol with a double chevron arrow above it and is used on travel lanes too narrow for motor vehicles and bicycles to share side-by-side.",
+	"image": "images/shared-lane.jpg"
+    },
+    {
+	"category": "Pavement Markings",
+	"question": "Is a car allowed to be in this lane?",
+	"options": ["No, this lane is for bicycles only", "Yes, this is a shared lane for both cars and bicylces"],
+	"correctIndex": 0,
+  	"tip": "Bicycle lanes are indicated by a solid or dashed white line or green pavement markings, and a bicyclist symbol. A bicycle lane is for the preferential use of bicyclists. Drivers should not drive in the bicycle lane except when necessary to turn left or right. Before turning, check your mirrors for bicyclists that may be behind you and yield to bicycles in the lane.",
+	"image": "images/shared-lane.jpg"
+    },
+    {
+	"category": "Pavement Markings",
+	"question": "Is a car allowed to cross this lane when making a turn?",
+	"options": ["Yes", "No"],
+	"correctIndex": 0,
+  	"tip": "Bicycle lanes are indicated by a solid or dashed white line or green pavement markings, and a bicyclist symbol. A bicycle lane is for the preferential use of bicyclists. Drivers should not drive in the bicycle lane except when necessary to turn left or right. Before turning, check your mirrors for bicyclists that may be behind you and yield to bicycles in the lane.",
+	"image": "images/shared-lane.jpg"
+    },
+    {
+	"category": "Pavement Markings",
+	"question": "Is the green car allowed to change lanes when the path is clear?",
+	"options": [
+	    "No, the green car must stay in its lane",
+	    "Yes, the green car can change lanes to the left only",
+	    "Yes, the green car can change lanes to the right only",
+	    "Yes, the green car can change to either the left or right lane once it is clear"
+	],
+	"correctIndex": 2,
+  	"tip": "Double solid white lines separate lanes of traffic going in the same direction. Most often they are used to designate special use lane from conventional lanes, as when used to separate a High Occupancy Vehicle lanes from the other lanes of an expressway. You may not cross these lines. You may enter the designated special use lane only where signs and markings allow.",
+	"image": "images/tricky-lines.jpg"
+    },
+    {
+	"category": "Pavement Markings",
+	"question": "Is the blue car allowed to change lanes when the path is clear?",
+	"options": [
+	    "No, the blue car must stay in its lane",
+	    "Yes, the blue car can change to the center lane only",
+	    "Yes, the blue car can change to any of the lanes"
+	],
+	"correctIndex": 0,
+  	"tip": "Double solid white lines separate lanes of traffic going in the same direction. Most often they are used to designate special use lane from conventional lanes, as when used to separate a High Occupancy Vehicle lanes from the other lanes of an expressway. You may not cross these lines. You may enter the designated special use lane only where signs and markings allow.",
+	"image": "images/tricky-lines.jpg"
+    },
+    {
+	"category": "Pavement Markings",
+	"question": "Is the red car allowed to change lanes when the path is clear?",
+	"options": [
+	    "No, the red car must stay in its lane",
+	    "Yes, the red car can change to the center lane only",
+	    "Yes, the red car can change to any of the lanes"
+	],
+	"correctIndex": 1,
+  	"tip": "Double solid white lines separate lanes of traffic going in the same direction. Most often they are used to designate special use lane from conventional lanes, as when used to separate a High Occupancy Vehicle lanes from the other lanes of an expressway. You may not cross these lines. You may enter the designated special use lane only where signs and markings allow.",
+	"image": "images/tricky-lines.jpg"
+    },
+    {
+	"category": "Pavement Markings",
+	"question": "Which cars need to stop for the school bus?",
+	"options": [
+	    "All of the cars",
+	    "The red cars only",
+	    "The purple, blue, and green cars only",
+	    "None of the cars"
+	],
+	"correctIndex": 1,
+  	"tip": "You do not have to stop if you are traveling in the opposite direction on a roadway with a median or barrier dividing the road and the bus is on the opposite side of the median or barrier. However, be prepared for unexpected actions by persons exiting the school bus.",
+	"image": "images/school-bus.jpg"
+    },
+    {
+	"category": "Pavement Markings",
+	"question": "Does the green car have to stop for the school bus?",
+	"options": [
+	    "Yes",
+	    "No"
+	],
+	"correctIndex": 1,
+  	"tip": "You do not have to stop if you are traveling in the opposite direction on a roadway with a median or barrier dividing the road and the bus is on the opposite side of the median or barrier. However, be prepared for unexpected actions by persons exiting the school bus.",
+	"image": "images/school-bus.jpg"
     }
 ]
