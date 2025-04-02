@@ -1,130 +1,1264 @@
 [
-  {
-    "category": "Road Signs & Signals",
-    "question": "What does this sign mean?",
-    "options": ["Stop", "Yield", "No U-turn", "Wrong Way"],
-    "correctIndex": 2,
-    "tip": "The U-turn with a slash through it means No U-turn.",
-    "image": "images/no-u-turn.png"
-  },
-  {
-    "category": "Road Signs & Signals",
-    "question": "What does a red octagon-shaped sign indicate?",
-    "options": [
-      "Yield",
-      "Stop",
-      "No Parking",
-      "Wrong Way"
-    ],
-    "correctIndex": 1,
-    "tip": "A red octagon is always used for STOP signs."
-  },
-  {
-    "category": "Road Signs & Signals",
-    "question": "What does a triangular red and white sign mean?",
-    "options": [
-      "Stop",
-      "Yield",
-      "Speed Limit",
-      "Do Not Enter"
-    ],
-    "correctIndex": 1,
-    "tip": "A triangle pointing down means Yield."
-  },
-  {
-    "category": "Road Signs & Signals",
-    "question": "What color are warning signs usually?",
-    "options": [
-      "Red",
-      "Green",
-      "Yellow",
-      "Blue"
-    ],
-    "correctIndex": 2,
-    "tip": "Yellow with black text or symbols is used for warnings."
-  },
-  {
-    "category": "Pavement Markings",
-    "question": "What does a solid yellow line next to a broken yellow line mean?",
-    "options": [
-      "You may pass from both sides",
-      "You may pass only from the side with the broken line",
-      "You may pass only from the side with the solid line",
-      "Passing is prohibited in both directions"
-    ],
-    "correctIndex": 1,
-    "tip": "Passing is allowed only from the side with the broken line."
-  },
-  {
-    "category": "Safe Driving Practices",
-    "question": "Where should your hands be placed on the steering wheel?",
-    "options": [
-      "10 and 2",
-      "9 and 3",
-      "8 and 4",
-      "12 and 6"
-    ],
-    "correctIndex": 2,
-    "tip": "The manual recommends 8 and 4 for better control and airbag safety."
-  },
-  {
-    "category": "Safe Driving Practices",
-    "question": "How many seconds should your following distance be at 55 MPH?",
-    "options": [
-      "2 seconds",
-      "3 seconds",
-      "4 seconds",
-      "5 seconds"
-    ],
-    "correctIndex": 2,
-    "tip": "The manual suggests 4 seconds at 55 MPH for safe stopping distance."
-  },
-  {
-    "category": "Rules & Laws",
-    "question": "What is the maximum legal BAC for drivers 21+ in Virginia?",
-    "options": [
-      "0.05%",
-      "0.08%",
-      "0.10%",
-      "0.00%"
-    ],
-    "correctIndex": 1,
-    "tip": "0.08% is the legal limit in Virginia and most states."
-  },
-  {
-    "category": "Rules & Laws",
-    "question": "What should you do at a flashing red traffic signal?",
-    "options": [
-      "Speed up",
-      "Stop and yield",
-      "Proceed without stopping",
-      "Turn only"
-    ],
-    "correctIndex": 1,
-    "tip": "A flashing red light means stop completely, then proceed when safe."
-  },
-  {
-    "category": "Sharing the Road",
-    "question": "When passing a bicyclist, how much space must you allow?",
-    "options": [
-      "1 foot",
-      "2 feet",
-      "3 feet",
-      "5 feet"
-    ],
-    "correctIndex": 2,
-    "tip": "Virginia law requires at least 3 feet of clearance when passing a bicyclist."
-  },
-  {
-    "category": "Driving in Special Conditions",
-    "question": "When driving in fog, what should you do?",
-    "options": [
-      "Use high beams",
-      "Use low beams",
-      "Use hazard lights",
-      "Turn off lights"
-    ],
-    "correctIndex": 1,
-    "tip": "Low beams reduce glare and help you see better in fog."
-  }
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": ["Stop", "Yield", "No U-turn", "Wrong Way"],
+	"correctIndex": 2,
+	"tip": "The U-turn with a slash through it means No U-turn.",
+	"image": "images/no-u-turn.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Stop",
+	    "Proceed with caution",
+	    "Yield",
+	    "Do not enter"
+	],
+	"correctIndex": 2,
+	"tip": "The triangle-shaped sign means Yield. You must slow down and be prepared to stop.",
+	"image": "images/yield.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Curve ahead",
+	    "Advisory speed",
+	    "Speed limit",
+	    "Intersection ahead"
+	],
+	"correctIndex": 1,
+	"tip": "This sign indicates the maximum safe speed for a highway exit.",
+	"image": "images/advisory-speed.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Bicycle prohibited",
+	    "Bicycle parking",
+	    "Bicycle crossing or bike path",
+	    "Bicycle repair ahead"
+	],
+	"correctIndex": 2,
+	"tip": "This sign warns that bicycles regularly cross or ride beside traffic in this area.",
+	"image": "images/bicycle-crossing.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Bicycle lane ends",
+	    "Shared lane marking",
+	    "Bicycle crossing or bike path",
+	    "Bicycle maintenance area"
+	],
+	"correctIndex": 2,
+	"tip": "This sign alerts drivers to areas where bicycles regularly cross or ride beside traffic.",
+	"image": "images/bike-crossing.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Railroad crossing",
+	    "Highway exit",
+	    "Drawbridge ahead",
+	    "Railroad crossing with flashing lights and gate"
+	],
+	"correctIndex": 3,
+	"tip": "This sign, along with flashing lights, warns of a railroad crossing with gates.",
+	"image": "images/crossbuck-flashing-lights-and-gate.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Livestock crossing",
+	    "Speed zone ahead",
+	    "Deer crossing",
+	    "Yield to animals"
+	],
+	"correctIndex": 2,
+	"tip": "This sign warns that deer cross the roadway in this area. Slow down and be alert.",
+	"image": "images/deer-crossing.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Road closed",
+	    "Divided highway ends",
+	    "Detour",
+	    "Yield ahead"
+	],
+	"correctIndex": 2,
+	"tip": "This orange sign indicates a change in the traffic pattern or route ahead due to road work.",
+	"image": "images/detour.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What shape is this sign and what does it generally mean?",
+	"options": [
+	    "Octagon; Regulatory sign",
+	    "Diamond; Warning sign",
+	    "Rectangle; Guide sign",
+	    "Triangle; Yield sign"
+	],
+	"correctIndex": 1,
+	"tip": "Diamond-shaped signs are warning signs that alert you to special conditions or hazards ahead.",
+	"image": "images/diamond-warning.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign indicate?",
+	"options": [
+	    "Parking allowed",
+	    "Handicap parking permit required",
+	    "Loading zone only",
+	    "Parking prohibited"
+	],
+	"correctIndex": 1,
+	"tip": "These signs mark parking spaces reserved for people with disabled parking permits.",
+	"image": "images/disabled-parking.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Divided highway ends",
+	    "Divided highway begins",
+	    "One-way street",
+	    "Two-way traffic ahead"
+	],
+	"correctIndex": 1,
+	"tip": "This sign indicates the start of a divided highway where the road is split into two separate roadways.",
+	"image": "images/divided-highway-begins.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Divided highway begins",
+	    "Road narrows",
+	    "Two-way traffic ahead",
+	    "Divided highway ends"
+	],
+	"correctIndex": 3,
+	"tip": "This sign warns that the highway ahead no longer has a median or divider, and traffic goes in both directions.",
+	"image": "images/divided-highway-ends.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Yield",
+	    "Stop",
+	    "Do not enter",
+	    "One way"
+	],
+	"correctIndex": 2,
+	"tip": "These signs mean you cannot drive in that direction. You are going the wrong way.",
+	"image": "images/do-not-enter.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "No passing zone",
+	    "Passing allowed",
+	    "Keep right",
+	    "Lane ends"
+	],
+	"correctIndex": 0,
+	"tip": "This sign marks the beginning of a no-passing zone. You may not pass cars ahead of you in your lane.",
+	"image": "images/do-not-pass.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Bridge closed",
+	    "Uneven lanes",
+	    "Expansion joints",
+	    "Speed bump ahead"
+	],
+	"correctIndex": 2,
+	"tip": "This sign warns of joints across lanes that may create a bump or cause loss of traction in wet weather.",
+	"image": "images/expansion-joints.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What do these signs indicate?",
+	"options": [
+	    "Detour",
+	    "Lane closed ahead",
+	    "Flagger ahead",
+	    "Merging lanes"
+	],
+	"correctIndex": 1,
+	"tip": "These signs, often with flashing lights, direct drivers into different traffic lanes in work zones.",
+	"image": "images/flashing-arrow-boards.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What should you do at a flashing red light?",
+	"options": [
+	    "Proceed with caution",
+	    "Stop and proceed when safe",
+	    "Slow down",
+	    "Yield to pedestrians"
+	],
+	"correctIndex": 1,
+	"tip": "At a flashing red light, you must come to a complete stop and yield to oncoming vehicles and pedestrians.",
+	"image": "images/flashing-red.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does a flashing yellow light mean?",
+	"options": [
+	    "Prepare to stop",
+	    "Yield to traffic",
+	    "Slow down and proceed with caution",
+	    "Stop if necessary"
+	],
+	"correctIndex": 2,
+	"tip": "A flashing yellow light means slow down and proceed with caution. It indicates a potentially hazardous condition.",
+	"image": "images/flashing-yellow.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does a green arrow signal mean?",
+	"options": [
+	    "Turn in any direction",
+	    "Proceed straight",
+	    "You may go in the direction of the arrow",
+	    "Stop and then proceed"
+	],
+	"correctIndex": 2,
+	"tip": "At a green arrow, you may go in the direction of the arrow if the way is clear.",
+	"image": "images/green-arrow.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this lane use signal mean?",
+	"options": [
+	    "Lane closed",
+	    "Turn only",
+	    "Proceed straight",
+	    "You are permitted to drive in the lane"
+	],
+	"correctIndex": 3,
+	"tip": "A green arrow indicates that you are permitted to drive in the lane.",
+	"image": "images/green-lane-arrow.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does a green light mean?",
+	"options": [
+	    "Stop if it is not clear",
+	    "Proceed with caution",
+	    "You may go if the way is clear",
+	    "Prepare to stop"
+	],
+	"correctIndex": 2,
+	"tip": "At a green light, you may go if the way is clear.",
+	"image": "images/green-light.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What type of sign is this and what does it generally indicate?",
+	"options": [
+	    "Warning sign; Hazards ahead",
+	    "Regulatory sign; Instructions or law",
+	    "Guide sign; Directions or information",
+	    "Construction sign; Temporary conditions"
+	],
+	"correctIndex": 1,
+	"tip": "Rectangle signs with green and white are guide signs and provide helpful information.",
+	"image": "images/green-regulatory-rectangle.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What do these signs indicate?",
+	"options": [
+	    "Restricted parking",
+	    "High-occupancy vehicle (HOV) lanes",
+	    "Truck lanes",
+	    "Toll lanes"
+	],
+	"correctIndex": 1,
+	"tip": "These signs indicate lanes reserved for buses and vehicles with a driver and one or more passengers.",
+	"image": "images/high-occupancy-vehicle.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Speed limit ahead",
+	    "Yield ahead",
+	    "Hill",
+	    "Bump"
+	],
+	"correctIndex": 2,
+	"tip": "This sign warns of a steep grade ahead. Check your brakes.",
+	"image": "images/hill.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign indicate?",
+	"options": [
+	    "Cattle crossing",
+	    "Slow-moving vehicles",
+	    "Horse-drawn buggies",
+	    "Farm equipment crossing"
+	],
+	"correctIndex": 2,
+	"tip": "This sign warns that horse-drawn buggies regularly travel in the area. Slow down and don't use your horn.",
+	"image": "images/horse-drawn-buggies.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Right lane ends",
+	    "HOV lane ahead",
+	    "Passing permitted",
+	    "Express lane"
+	],
+	"correctIndex": 1,
+	"tip": "This sign indicates the presence of a High Occupancy Vehicle lane ahead.",
+	"image": "images/hov-lane-ahead.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign indicate?",
+	"options": [
+	    "Crosswalk ahead",
+	    "Side road",
+	    "Yield",
+	    "Intersection"
+	],
+	"correctIndex": 3,
+	"tip": "This sign warns of an upcoming intersection.",
+	"image": "images/intersection.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign indicate?",
+	"options": [
+	    "Crossroad ahead",
+	    "Side road",
+	    "Stop ahead",
+	    "Intersection"
+	],
+	"correctIndex": 3,
+	"tip": "This sign warns of an upcoming intersection.",
+	"image": "images/intersection-2.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Divided highway",
+	    "Keep left",
+	    "Keep right",
+	    "Yield"
+	],
+	"correctIndex": 2,
+	"tip": "This sign directs you to drive to the side indicated by the arrow.",
+	"image": "images/keep-right.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Added lane",
+	    "Lane ends",
+	    "Passing allowed",
+	    "Center lane ends"
+	],
+	"correctIndex": 1,
+	"tip": "This sign indicates that the right lane ends soon and drivers in the right lane must merge left.",
+	"image": "images/lane-reduction.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What do these signals indicate?",
+	"options": [
+	    "Lane closed",
+	    "Turn only",
+	    "You are permitted to drive in the lane",
+	    "Move out of the lane as soon as safely possible"
+	],
+	"correctIndex": 1,
+	"tip": "These signs are used where turns are required",
+	"image": "images/lane-use-control.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What do these signals indicate?",
+	"options": [
+	    "Lane closed",
+	    "Turn only",
+	    "Do not pass",
+	    "Move out of the lane as soon as safely possible"
+	],
+	"correctIndex": 1,
+	"tip": "These signs are used where turns are required",
+	"image": "images/lane-use-control-2.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this signal mean?",
+	"options": [
+	    "Proceed straight",
+	    "Left turn only",
+	    "Yield to left turn",
+	    "Stop"
+	],
+	"correctIndex": 1,
+	"tip": "You are permitted to enter in a lane marked with a one-way or two-way arrow only to turn in the direction of the arrow.",
+	"image": "images/left-turn-arrow.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign used with a traffic signal mean?",
+	"options": [
+	    "Left turn only",
+	    "Yield to oncoming traffic when turning left on green",
+	    "No left turn",
+	    "Stop before turning"
+	],
+	"correctIndex": 1,
+	"tip": "This sign indicates that traffic turning left at a green light does not have the right-of-way and must yield to oncoming traffic.",
+	"image": "images/left-turn-yield-on-green.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Minimum speed",
+	    "Low shoulder",
+	    "Speed limit",
+	    "Low clearance"
+	],
+	"correctIndex": 3,
+	"tip": "This sign warns that the overpass ahead has a low clearance. Do not proceed if your vehicle is taller than the height shown on the sign.",
+	"image": "images/low-clearance.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign warn about?",
+	"options": [
+	    "Steep hill",
+	    "Low ground railroad crossing",
+	    "Rough road",
+	    "Bumpy road"
+	],
+	"correctIndex": 1,
+	"tip": "This sign warns of a steep slope where railroad tracks cross the road, which may cause low vehicles to get caught.",
+	"image": "images/low-ground-railroad-crossing.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Divided highway ahead",
+	    "Merge",
+	    "Lane ends",
+	    "Yield ahead"
+	],
+	"correctIndex": 1,
+	"tip": "This sign indicates that two lanes of traffic moving in the same direction are about to become one. Drivers in both lanes are responsible for merging safely.",
+	"image": "images/merge.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "No turns",
+	    "No right turn",
+	    "No left turn",
+	    "No U-turn"
+	],
+	"correctIndex": 2,
+	"tip": "Left turns are against the law where this sign is posted. In Virginia, U-turns are considered two left turns and are illegal if this sign is posted.",
+	"image": "images/no-left-turn.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Passing allowed with caution",
+	    "Do not pass",
+	    "Lane ends",
+	    "Keep right"
+	],
+	"correctIndex": 1,
+	"tip": "This sign marks the beginning of a no-passing zone. You may not pass cars ahead of you in your lane.",
+	"image": "images/no-passing-zone.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "No turns",
+	    "No left turn",
+	    "No right turn",
+	    "No U-turn"
+	],
+	"correctIndex": 2,
+	"tip": "Right turns are illegal when you see this sign.",
+	"image": "images/no-right-turn.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "No turns",
+	    "No left turn",
+	    "No right turn",
+	    "No turn on red"
+	],
+	"correctIndex": 3,
+	"tip": "You may not turn on a red light when you see this sign. Wait for the signal to turn green.",
+	"image": "images/no-turn-on-red.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "No turns",
+	    "No left turn",
+	    "No right turn",
+	    "No U-turn"
+	],
+	"correctIndex": 3,
+	"tip": "U-turns are illegal when you see this sign.",
+	"image": "images/no-u-turn.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What shape is this sign and what does it always mean?",
+	"options": [
+	    "Rectangle; Regulatory sign",
+	    "Octagon; Stop",
+	    "Triangle; Yield",
+	    "Diamond; Warning"
+	],
+	"correctIndex": 1,
+	"tip": "This eight-sided shape always means stop. You must come to a complete stop.",
+	"image": "images/octagon.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Divided highway",
+	    "One way",
+	    "Two way",
+	    "No turns"
+	],
+	"correctIndex": 1,
+	"tip": "Traffic flows only in the direction of the arrow.",
+	"image": "images/one-way-1.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Divided highway",
+	    "One way",
+	    "Two way",
+	    "No turns"
+	],
+	"correctIndex": 1,
+	"tip": "Traffic flows only in the direction of the arrow.",
+	"image": "images/one-way-2.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign warn about?",
+	"options": [
+	    "Rough road",
+	    "Bump",
+	    "Uneven lanes",
+	    "Open joints on bridges or ramps"
+	],
+	"correctIndex": 3,
+	"tip": "This sign warns motorists of open joints on bridges or ramps that could cause a motorcyclist to lose control.",
+	"image": "images/open-joints.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Pedestrian crossing",
+	    "School crossing",
+	    "Playground ahead",
+	    "Watch for children"
+	],
+	"correctIndex": 0,
+	"tip": "This sign warns drivers to watch for people who are walking, riding bicycles, or other devices entering a crosswalk or crossing their path.",
+	"image": "images/pedestrian-crossing.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Pedestrian crossing",
+	    "School crossing",
+	    "Playground ahead",
+	    "Watch for children"
+	],
+	"correctIndex": 0,
+	"tip": "This sign warns drivers to watch for people who are walking, riding bicycles, or other devices entering a crosswalk or crossing their path.",
+	"image": "images/pedestrian-crossing-2.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign indicate?",
+	"options": [
+	    "Speed limit ahead",
+	    "Photo enforcement ahead",
+	    "Red light camera",
+	    "Movie theater ahead"
+	],
+	"correctIndex": 1,
+	"tip": "This sign indicates that automated photo enforcement is in place for speeding in a work zone.",
+	"image": "images/photo-speed-enforcement.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What do these signals and sign indicate?",
+	"options": [
+	    "Railroad crossing ahead",
+	    "Move quickly over train tracks",
+	    "Drive slowly over train tracks",
+	    "Stop for approaching train"
+	],
+	"correctIndex": 3,
+	"tip": "Flashing lights used with crossbuck signs warn drivers to stop for approaching trains.",
+	"image": "images/railroad-crossbuck-and-flashing-lights.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "No parking",
+	    "Yield to trains",
+	    "Stop ahead",
+	    "Do not cross tracks"
+	],
+	"correctIndex": 1,
+	"tip": "This sign warns you to look, listen, slow down, and be prepared to stop for trains.",
+	"image": "images/railroad-crossbuck.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Railroad crossing ahead",
+	    "Intersection ahead",
+	    "Stop ahead",
+	    "Do not cross tracks"
+	],
+	"correctIndex": 0,
+	"tip": "Advance warning signs are placed before a railroad crossing to warn you to look, listen, slow down, and be prepared to stop for trains.",
+	"image": "images/railroad-crossing.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does a red arrow mean?",
+	"options": [
+	    "Proceed with caution",
+	    "Turn if clear",
+	    "Stop before moving in the direction of the arrow",
+	    "Yield to traffic"
+	],
+	"correctIndex": 2,
+	"tip": "A red arrow means you must stop if you intend to move in the direction of the arrow.",
+	"image": "images/red-arrow.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does a red circle with a slash generally mean?",
+	"options": [
+	    "Warning",
+	    "Stop",
+	    "Yield",
+	    "No"
+	],
+	"correctIndex": 3,
+	"tip": "A red circle with a slash means NO; the symbol inside the circle tells you what is prohibited.",
+	"image": "images/red-circle-with-slash.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does a red light mean?",
+	"options": [
+	    "Proceed with caution",
+	    "Prepare to stop",
+	    "Go faster",
+	    "Stop"
+	],
+	"correctIndex": 3,
+	"tip": "At a red light, you must come to a complete stop.",
+	"image": "images/red-light.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Speed limit",
+	    "Reduce speed ahead",
+	    "Advisory speed",
+	    "End speed zone"
+	],
+	"correctIndex": 1,
+	"tip": "This sign warns you to prepare to reduce your speed; the speed limit is changing ahead.",
+	"image": "images/reduced-speed-limit-ahead.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does a red X signal mean?",
+	"options": [
+	    "Proceed with caution",
+	    "Lane closed",
+	    "Turn only",
+	    "Change lanes"
+	],
+	"correctIndex": 1,
+	"tip": "Never drive in a lane marked with a red X signal.",
+	"image": "images/red-x.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Curve ahead",
+	    "Sharp turn",
+	    "Winding road",
+	    "Right turn only"
+	],
+	"correctIndex": 0,
+	"tip": "This sign warns that the road ahead curves right, then left. Slow down.",
+	"image": "images/right-and-left-curves.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Curve ahead",
+	    "Sharp turn",
+	    "Side road joins curve",
+	    "Right turn only"
+	],
+	"correctIndex": 2,
+	"tip": "The road ahead curves right and a side road joins from the left within the curve. Be alert for vehicles entering the roadway you are traveling on.",
+	"image": "images/right-curve-side-road.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Curve ahead",
+	    "Sharp turn",
+	    "Advisory speed for curve",
+	    "Right turn only"
+	],
+	"correctIndex": 2,
+	"tip": "The road ahead curves right. Slow down to the safe speed indicated.",
+	"image": "images/right-curve-with-speed-indicator.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Road closed",
+	    "Construction ahead",
+	    "Detour",
+	    "Flagger ahead"
+	],
+	"correctIndex": 1,
+	"tip": "This sign indicates a work zone ahead. Slow down. Unusual or potentially dangerous conditions are ahead.",
+	"image": "images/road-work-ahead.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What do these signs warn about?",
+	"options": [
+	    "Uneven lanes",
+	    "Stop ahead",
+	    "Rough road, bump, or uneven lanes",
+	    "Construction zone"
+	],
+	"correctIndex": 2,
+	"tip": "These signs are used when certain road conditions, such as loose gravel or road construction, affect the roadway surface and create potentially difficult conditions.",
+	"image": "images/rough-road-bump-uneven-lanes.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign indicate?",
+	"options": [
+	    "Stop ahead",
+	    "Roundabout ahead",
+	    "U-turn ahead",
+	    "Yield ahead"
+	],
+	"correctIndex": 1,
+	"tip": "This sign indicates a circular intersection with an island in the center is ahead. Entering traffic must yield to traffic already in the circle.",
+	"image": "images/roundabout.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What do these signs warn motorists about?",
+	"options": [
+	    "Speed bumps ahead",
+	    "Rough road ahead",
+	    "Lane closure ahead",
+	    "Rumble strips ahead"
+	],
+	"correctIndex": 3,
+	"tip": "These signs warn motorists of black or orange strips placed across the travel lanes in advance of work zones.",
+	"image": "images/rumble-strips-ahead.jpg"
+    },
+
+
+
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Pedestrian crossing",
+	    "School crossing",
+	    "Playground ahead",
+	    "Watch for children"
+	],
+	"correctIndex": 1,
+	"tip": "This sign warns drivers to watch out for children crossing the street or playing in school zones and surrounding areas.",
+	"image": "images/school-crossing.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "School zone",
+	    "Get out of car and walk",
+	    "Speed limit",
+	    "Watch for children"
+	],
+	"correctIndex": 0,
+	"tip": "This sign marks school zones and warns you about school crossings.",
+	"image": "images/school-zone.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Winding road",
+	    "Turn right",
+	    "Right curve",
+	    "Sharp right and left turns"
+	],
+	"correctIndex": 3,
+	"tip": "This sign warns that the road ahead turns sharply right, then left. Slow down and be prepared.",
+	"image": "images/sharp-right-and-left-turns.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Curve ahead",
+	    "Sharp turn",
+	    "Winding road",
+	    "Right turn only"
+	],
+	"correctIndex": 1,
+	"tip": "Slow down and be prepared for a sharp right turn in the road ahead.",
+	"image": "images/sharp-right-turn.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Stop ahead",
+	    "Yield ahead",
+	    "Signal ahead",
+	    "No passing"
+	],
+	"correctIndex": 2,
+	"tip": "This sign warns that traffic signals are ahead. Slow down and be ready to stop.",
+	"image": "images/signal-ahead.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Rough road",
+	    "Slippery when wet",
+	    "Ice on bridge",
+	    "Water crossing ahead"
+	],
+	"correctIndex": 1,
+	"tip": "When pavement is wet, reduce your speed. Do not brake hard or change direction suddenly.",
+	"image": "images/slippery-when-wet.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign indicate?",
+	"options": [
+	    "Construction vehicles",
+	    "Farm equipment",
+	    "Slow-moving vehicles",
+	    "Yield"
+	],
+	"correctIndex": 2,
+	"tip": "Vehicles traveling at 25 MPH or less, such as farm equipment, horse-drawn vehicles or highway work vehicles, must display these signs.",
+	"image": "images/slow-moving-vehicles.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What is the speed limit indicated by this sign?",
+	"options": [
+	    "45 MPH",
+	    "50 MPH",
+	    "55 MPH",
+	    "60 MPH"
+	],
+	"correctIndex": 2,
+	"tip": "This sign indicates the maximum legal speed that you may drive on the road where the sign is posted.",
+	"image": "images/speed-limit-55.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Yield ahead",
+	    "Stop",
+	    "Stop ahead",
+	    "Intersection ahead"
+	],
+	"correctIndex": 2,
+	"tip": "A stop sign is ahead. Slow down and be ready to stop.",
+	"image": "images/stop-ahead.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign shape mean?",
+	"options": [
+	    "Regulatory sign",
+	    "Stop",
+	    "Yield",
+	    "Warning"
+	],
+	"correctIndex": 1,
+	"tip": "This eight-sided shape always means stop. You must come to a complete stop.",
+	"image": "images/stop.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign indicate?",
+	"options": [
+	    "Y intersection",
+	    "T intersection",
+	    "Crossroad",
+	    "Divided highway"
+	],
+	"correctIndex": 1,
+	"tip": "The roadway you are traveling on ends ahead at a stop sign. You must turn right or left after yielding.",
+	"image": "images/t-intersection.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What kind of vehicles does this sign relate to?",
+	"options": [
+	    "All vehicles",
+	    "Passenger cars",
+	    "Trucks",
+	    "Tractors and farm equipment"
+	],
+	"correctIndex": 3,
+	"tip": "Tractors and farm equipment regularly travel in this area. Be ready to slow down or stop.",
+	"image": "images/tractor.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign shape mean?",
+	"options": [
+	    "Regulatory sign",
+	    "Stop",
+	    "Yield",
+	    "Warning"
+	],
+	"correctIndex": 2,
+	"tip": "This three-sided shape means yield. Slow down and be prepared to stop.",
+	"image": "images/triangle.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this signal indicate?",
+	"options": [
+	    "Divided highway",
+	    "Two-way traffic",
+	    "Left turn lane",
+	    "Merging traffic"
+	],
+	"correctIndex": 2,
+	"tip": "You are permitted to enter in a lane marked with a one-way or two-way arrow only to turn in the direction of the arrow.",
+	"image": "images/two-way-turn.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What type of sign is this and what does it generally indicate?",
+	"options": [
+	    "Warning sign; Hazards ahead",
+	    "Regulatory sign; Instructions or law",
+	    "Guide sign; Directions or information",
+	    "Construction sign; Temporary conditions"
+	],
+	"correctIndex": 1,
+	"tip": "Vertical rectangle signs generally give instructions or tell you the law.",
+	"image": "images/white-regulatory-rectangle.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Curve ahead",
+	    "Sharp turn",
+	    "Winding road",
+	    "Hill"
+	],
+	"correctIndex": 3,
+	"tip": "The road ahead winds with a series of turns or curves. Slow down for better control.",
+	"image": "images/winding-road.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Divided highway",
+	    "One way",
+	    "Do not enter - Wrong way",
+	    "No U-turn"
+	],
+	"correctIndex": 3,
+	"tip": "These signs mean you are going in the wrong direction and could get into a head-on crash with vehicles headed your way.",
+	"image": "images/wrong-way.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does a yellow arrow mean?",
+	"options": [
+	    "Proceed with caution",
+	    "Prepare to stop",
+	    "Yield to traffic",
+	    "Turn if clear"
+	],
+	"correctIndex": 1,
+	"tip": "A yellow light or arrow are cautions warning that the light is about to change. Stop if you haven't entered the intersection.",
+	"image": "images/yellow-arrow.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does a yellow diagonal downward arrow signal mean?",
+	"options": [
+	    "Proceed with caution",
+	    "Prepare to stop",
+	    "Move out of the lane as soon as safely possible",
+	    "Turn only"
+	],
+	"correctIndex": 2,
+	"tip": "These signals mean that you should move out of the lane as soon as safely possible.",
+	"image": "images/yellow-diagonal-arrow.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does a yellow light mean?",
+	"options": [
+	    "Proceed with caution",
+	    "Prepare to stop",
+	    "Speed up",
+	    "Yield to traffic"
+	],
+	"correctIndex": 1,
+	"tip": "A yellow light or arrow are cautions warning that the light is about to change. Stop if you haven't entered the intersection.",
+	"image": "images/yellow-light.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does a yellow X signal mean?",
+	"options": [
+	    "Proceed with caution",
+	    "Lane closed",
+	    "Turn only",
+	    "Move out of the lane as soon as safely possible"
+	],
+	"correctIndex": 3,
+	"tip": "These signals mean that you should move out of the lane as soon as safely possible.",
+	"image": "images/yellow-x.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Yield ahead",
+	    "Stop ahead",
+	    "Roundabout ahead",
+	    "Intersection ahead"
+	],
+	"correctIndex": 0,
+	"tip": "A yield sign is ahead. Slow down and be ready to stop.",
+	"image": "images/yield-ahead.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign mean?",
+	"options": [
+	    "Stop",
+	    "Maintain speed",
+	    "Yield",
+	    "Do not enter"
+	],
+	"correctIndex": 2,
+	"tip": "You must slow down as you come to the intersection. Be prepared to stop. Let any vehicles, pedestrians or bicyclists safely pass before you proceed.",
+	"image": "images/yield.jpg"
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does this sign indicate?",
+	"options": [
+	    "Y intersection",
+	    "T intersection",
+	    "Crossroad",
+	    "Divided highway"
+	],
+	"correctIndex": 1,
+	"tip": "You must bear either right or left ahead.",
+	"image": "images/y-intersection.jpg"
+    },   
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does a red octagon-shaped sign indicate?",
+	"options": [
+	    "Yield",
+	    "Stop",
+	    "No Parking",
+	    "Wrong Way"
+	],
+	"correctIndex": 1,
+	"tip": "A red octagon is always used for STOP signs."
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What does a triangular red and white sign mean?",
+	"options": [
+	    "Stop",
+	    "Yield",
+	    "Speed Limit",
+	    "Do Not Enter"
+	],
+	"correctIndex": 1,
+	"tip": "A triangle pointing down means Yield."
+    },
+    {
+	"category": "Road Signs & Signals",
+	"question": "What color are warning signs usually?",
+	"options": [
+	    "Red",
+	    "Green",
+	    "Yellow",
+	    "Blue"
+	],
+	"correctIndex": 2,
+	"tip": "Yellow with black text or symbols is used for warnings."
+    },
+    {
+	"category": "Pavement Markings",
+	"question": "What does a solid yellow line next to a broken yellow line mean?",
+	"options": [
+	    "You may pass from both sides",
+	    "You may pass only from the side with the broken line",
+	    "You may pass only from the side with the solid line",
+	    "Passing is prohibited in both directions"
+	],
+	"correctIndex": 1,
+	"tip": "Passing is allowed only from the side with the broken line."
+    },
+    {
+	"category": "Safe Driving Practices",
+	"question": "Where should your hands be placed on the steering wheel?",
+	"options": [
+	    "10 and 2",
+	    "9 and 3",
+	    "8 and 4",
+	    "12 and 6"
+	],
+	"correctIndex": 2,
+	"tip": "The manual recommends 8 and 4 for better control and airbag safety."
+    },
+    {
+	"category": "Safe Driving Practices",
+	"question": "How many seconds should your following distance be at 55 MPH?",
+	"options": [
+	    "2 seconds",
+	    "3 seconds",
+	    "4 seconds",
+	    "5 seconds"
+	],
+	"correctIndex": 2,
+	"tip": "The manual suggests 4 seconds at 55 MPH for safe stopping distance."
+    },
+    {
+	"category": "Rules & Laws",
+	"question": "What is the maximum legal BAC for drivers 21+ in Virginia?",
+	"options": [
+	    "0.05%",
+	    "0.08%",
+	    "0.10%",
+	    "0.00%"
+	],
+	"correctIndex": 1,
+	"tip": "0.08% is the legal limit in Virginia and most states."
+    },
+    {
+	"category": "Rules & Laws",
+	"question": "What should you do at a flashing red traffic signal?",
+	"options": [
+	    "Speed up",
+	    "Stop and yield",
+	    "Proceed without stopping",
+	    "Turn only"
+	],
+	"correctIndex": 1,
+	"tip": "A flashing red light means stop completely, then proceed when safe."
+    },
+    {
+	"category": "Sharing the Road",
+	"question": "When passing a bicyclist, how much space must you allow?",
+	"options": [
+	    "1 foot",
+	    "2 feet",
+	    "3 feet",
+	    "5 feet"
+	],
+	"correctIndex": 2,
+	"tip": "Virginia law requires at least 3 feet of clearance when passing a bicyclist."
+    },
+    {
+	"category": "Driving in Special Conditions",
+	"question": "When driving in fog, what should you do?",
+	"options": [
+	    "Use high beams",
+	    "Use low beams",
+	    "Use hazard lights",
+	    "Turn off lights"
+	],
+	"correctIndex": 1,
+	"tip": "Low beams reduce glare and help you see better in fog."
+    }
 ]
